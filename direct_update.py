@@ -35,6 +35,15 @@ def update_portfolio():
     js_content = js_content.replace(f'firstName:"{config["personal_info"]["first_name"]}"', f'firstName:"{config["personal_info"]["first_name"]}"')
     js_content = js_content.replace(f'lastName:"{config["personal_info"]["last_name"]}"', f'lastName:"{config["personal_info"]["last_name"]}"')
     
+    # Update main heading message
+    print("📝 Updating main heading...")
+    main_heading = config["main_heading"]["message"]
+    # Find the message field in the main heading (the one that's not in About section)
+    # Look for the pattern that appears before the About section
+    main_heading_pattern = r'message:"[^"]*"'
+    # We need to be more specific - find the first message field (main heading)
+    js_content = re.sub(main_heading_pattern, f'message:"{main_heading}"', js_content, count=1)
+    
     # 2. Update About section - find and replace the entire message
     print("📝 Updating About section...")
     about_text = config["about_section"]["message"]

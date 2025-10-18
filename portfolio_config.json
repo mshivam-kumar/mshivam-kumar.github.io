@@ -5,6 +5,9 @@
     "email": "kumar.shivam@iitgn.ac.in",
     "title": "M. Tech student in Artificial Intelligence at IIT Gandhinagar"
   },
+  "main_heading": {
+    "message": "Passionate about AI/ML and solving real-world problems."
+  },
   "about_section": {
     "message": "Hi, I'm <strong>Shivam Kumar</strong>, a <strong>M. Tech student in Artificial Intelligence at IIT Gandhinagar</strong> with a passion for building intelligent, data-driven systems that solve real-world problems. I recently led my team to win the <strong>National AI Hackathon 2025 at IIT Gandhinagar</strong>, where I developed an <strong>AI-powered EV Battery Safety System</strong> integrating <strong>Machine Learning and Reinforcement Learning</strong> for predictive battery health monitoring."
   },
