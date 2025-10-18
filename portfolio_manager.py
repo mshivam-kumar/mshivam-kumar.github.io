@@ -45,7 +45,7 @@ class PortfolioManager:
         print("🔄 Updating About section...")
         content = self.read_file(self.js_file)
         
-        # Find and replace the about message
+        # Direct replacement - find any message field and replace it
         pattern = r'message:"[^"]*"'
         new_content = re.sub(pattern, f'message:"{new_about_text}"', content)
         

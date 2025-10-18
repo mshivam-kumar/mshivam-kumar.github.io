@@ -41,5 +41,82 @@
       "url": "https://github.com/mshivam-kumar/Anomaly-Detection-in-LLM-Operations",
       "date": "2025-06-05T16:45:00Z"
     }
-  ]
+  ],
+  "skills": {
+    "show": true,
+    "heading": "Technical Skills",
+    "hard_skills": [
+      {"name": "Python", "value": 95},
+      {"name": "Machine Learning", "value": 90},
+      {"name": "Deep Learning", "value": 85},
+      {"name": "Data Structures", "value": 90},
+      {"name": "C++", "value": 85},
+      {"name": "JavaScript", "value": 80},
+      {"name": "SQL", "value": 85},
+      {"name": "PyTorch", "value": 85},
+      {"name": "TensorFlow", "value": 75},
+      {"name": "OpenCV", "value": 80},
+      {"name": "Git", "value": 85},
+      {"name": "Docker", "value": 75}
+    ],
+    "soft_skills": [
+      {"name": "Problem Solving", "value": 95},
+      {"name": "Leadership", "value": 90},
+      {"name": "Team Collaboration", "value": 90},
+      {"name": "Adaptability", "value": 85},
+      {"name": "Goal-Oriented", "value": 90},
+      {"name": "Creativity", "value": 85},
+      {"name": "Communication", "value": 85},
+      {"name": "Time Management", "value": 80}
+    ]
+  },
+  "experience": {
+    "show": true,
+    "heading": "Work Experience",
+    "data": [
+      {
+        "role": "AI Product Engineer Intern",
+        "company": "AIResQ ClimSols, Research Park IIT Gandhinagar",
+        "duration": "Aug 2025 - Sept 2025",
+        "description": "Developed geospatial AI pipeline for flood detection using satellite imagery and rainfall data"
+      }
+    ]
+  },
+  "education": {
+    "show": true,
+    "heading": "Education",
+    "data": [
+      {
+        "degree": "M.Tech in Artificial Intelligence",
+        "institution": "Indian Institute of Technology Gandhinagar",
+        "year": "2024-2026",
+        "gpa": "8.5/10"
+      }
+    ]
+  },
+  "certifications": {
+    "show": true,
+    "heading": "Certifications",
+    "data": [
+      {
+        "name": "Machine Learning Specialization",
+        "issuer": "Stanford University (Coursera)",
+        "date": "2024",
+        "credential_id": "ML-2024-001"
+      }
+    ]
+  },
+  "publications": {
+    "show": true,
+    "heading": "Publications",
+    "data": [
+      {
+        "title": "AI-Powered EV Battery Safety System: A Hybrid ML-RL Approach",
+        "authors": "Shivam Kumar, et al.",
+        "venue": "National AI Hackathon 2025",
+        "year": "2025",
+        "link": "https://github.com/mshivam-kumar/AI-Powered-EV-Battery-Safety-System"
+      }
+    ]
+  }
 }

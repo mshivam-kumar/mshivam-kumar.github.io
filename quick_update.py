@@ -39,7 +39,7 @@ def update_from_config():
     js_content = re.sub(r'lastName:"[^"]*"', f'lastName:"{config["personal_info"]["last_name"]}"', js_content)
     js_content = re.sub(r'"[^"]*@[^"]*"', f'"{config["personal_info"]["email"]}"', js_content)
     
-    # Update About section
+    # Update About section - direct replacement
     print("📝 Updating About section...")
     about_text = config["about_section"]["message"]
     js_content = re.sub(r'message:"[^"]*"', f'message:"{about_text}"', js_content)
