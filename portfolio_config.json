@@ -1,0 +1,45 @@
+{
+  "personal_info": {
+    "first_name": "Shivam",
+    "last_name": "Kumar",
+    "email": "kumar.shivam@iitgn.ac.in",
+    "title": "M. Tech student in Artificial Intelligence at IIT Gandhinagar"
+  },
+  "about_section": {
+    "message": "Hi, I'm <strong>Shivam Kumar</strong>, a <strong>M. Tech student in Artificial Intelligence at IIT Gandhinagar</strong> with a passion for building intelligent, data-driven systems that solve real-world problems. I recently led my team to win the <strong>National AI Hackathon 2025 at IIT Gandhinagar</strong>, where I developed an <strong>AI-powered EV Battery Safety System</strong> integrating <strong>Machine Learning and Reinforcement Learning</strong> for predictive battery health monitoring."
+  },
+  "resume": {
+    "url": "https://drive.google.com/file/d/1FqMysOfbMfz5wAZ6y9EkdiwEgZCZkU9u/view"
+  },
+  "social_links": {
+    "github": "https://github.com/mshivam-kumar/",
+    "linkedin": "https://www.linkedin.com/in/mshivamkumar/",
+    "leetcode": "https://leetcode.com/u/shivamkumar28s/"
+  },
+  "projects": [
+    {
+      "name": "AI-Powered EV Battery Safety System<br/>(Winner – National Level AI Hackathon 2025, IIT Gandhinagar)",
+      "description": "• Built a hybrid ML–RL safety intelligence framework combining ensemble learning (RF + MLP) with a rule-governed agent, achieving 95+% detection accuracy on 5.3M NASA samples with <10 ms latency.<br/>• Designed a self-learning Q-learning safety agent with 75% safety accuracy and 6× state-space coverage gain through critical-scenario sampling and adaptive fine-tuning cycles.<br/>• Deployed an interactive Streamlit dashboard featuring a Battery Health Index (BHI) and climate-adaptive safety thresholds across India's five diverse climate zones and four seasons for predictive alerts and anomaly visualization.",
+      "url": "https://github.com/mshivam-kumar/AI-Powered-EV-Battery-Safety-System",
+      "date": "2025-10-10T10:30:00Z"
+    },
+    {
+      "name": "Smart Product Analytics Platform for Sellers<br/>(Full Stack + AI)",
+      "description": "• Architected and deployed a full-stack AI analytics platform for Amazon product sentiment analysis, processing 25K+ reviews with ASIN-based insights and cross-feature trends.<br/>• Developed a RAG-powered conversational AI using LoRA fine-tuned TinyLlama (1.1B) with semantic search and fallback to pre-trained models under 8 GB AWS constraints.<br/>• Deployed on AWS ECS Fargate with Docker, ALB load balancing, and automated CI/CD via GitHub Actions and Terraform for scalable, reproducible infrastructure.",
+      "url": "https://github.com/mshivam-kumar/Sentiment-Driven-Product-Feature-Insights-for-Manufacturers-Sellers",
+      "date": "2025-08-07T14:20:00Z"
+    },
+    {
+      "name": "Bangalore Urban Flood Extent Prediction<br/>(AI Product Engineer Intern, AIResQ ClimSols, Research Park IIT Gandhinagar)",
+      "description": "• Developed a scalable geospatial data pipeline ingesting multi-source data (Satellite imagery, DEM, Rainfall) and generated ground-truth flood data for Bangalore using Sentinel-1 imagery.<br/>• Built a dataset automation tool in Google Earth Engine and trained a multi-input U-Net CNN with mid-layer rainfall fusion, achieving F1-score 0.84 (>87% pixel accuracy) on flooded pixels.<br/>• Deployed a Flask REST API for real-time model predictions, enabling scalable inferencing and integration.",
+      "url": "https://github.com/mshivam-kumar/Bangalore-Urban-Flood-Extent-Prediction",
+      "date": "2025-09-10T09:15:00Z"
+    },
+    {
+      "name": "Large Language Model Fine-Tuning with Limited Resources<br/>(LLM Fine-Tuning Project)",
+      "description": "• Fine-tuned a 1.2B parameters Llama model on Wikipedia dataset with an end-to-end Hugging Face pipeline for enhanced language generation.<br/>• Achieved training feasibility on a single, limited GPU (Colab T4) by leveraging LoRA on key attention components (0.13% trainable parameters) and 4-bit Quantization.<br/>• Achieved a 6.16% token prediction accuracy improvement and significantly enhanced generated output relevance/fluency through comprehensive evaluation.",
+      "url": "https://github.com/mshivam-kumar/Anomaly-Detection-in-LLM-Operations",
+      "date": "2025-06-05T16:45:00Z"
+    }
+  ]
+}
